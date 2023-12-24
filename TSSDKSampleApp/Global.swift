@@ -10,7 +10,7 @@ import Foundation
 import Foundation
 
 struct Global {
-    static let suitName = "group.com.thechsee.SDK-sample-app"
+    static let suitName = ""
     enum UserDefaultsKey: String {
         case isBroadcasting
         case sessionLink

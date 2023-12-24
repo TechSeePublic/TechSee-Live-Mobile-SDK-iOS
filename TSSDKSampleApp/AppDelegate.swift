@@ -14,9 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     var techseeToken = ""
-    let kApiKey = "sdkDemo"
-    let kApiSecret = "123456Ts"
-    let kEnv = "staging"
+    let kApiKey = ""
+    let kApiSecret = ""
+    let kEnv = ""
     var smsUrl: URL?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

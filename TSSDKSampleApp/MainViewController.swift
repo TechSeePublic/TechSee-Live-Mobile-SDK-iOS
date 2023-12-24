@@ -20,7 +20,6 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        self.broadcastContainer.isHidden = true
         setBroadcastButton()
         
     }
@@ -34,7 +33,6 @@ class MainViewController: UIViewController {
         broadcastContainer.layer.borderColor = UIColor(red: 159/255, green: 173/255, blue: 181/255, alpha: 1).cgColor
         broadcastContainer.layer.cornerRadius = 10
         let broadcastPicker = RPSystemBroadcastPickerView(frame: broadcastButtonContainer.bounds)
-//        broadcastPicker.preferredExtension = "com.thechsee.SDK-sample-app.BroadcastExtension"
         broadcastPicker.showsMicrophoneButton = false
         broadcastButtonContainer.addSubview(broadcastPicker)
         self.broadcastPicker = broadcastPicker

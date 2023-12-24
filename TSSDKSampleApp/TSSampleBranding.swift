@@ -9,5 +9,4 @@ import Foundation
 import TechSeeLiveFramework
 
 class VodafoneBranding: TSBranding {
-    
 }

@@ -10,8 +10,8 @@ import Foundation
 import TechSeeLiveFramework
 
 
-let techSeeApiKey = "sdkDemo"
-let techSeeApiSecret = "123456Ts"
+let techSeeApiKey = ""
+let techSeeApiSecret = ""
 
 
 class TechSeeHandler: NSObject, AuthenticationProtocol, JoinSessionProtocol, ScreenTOS, Cursor, TranslationStatusProtocol, SessionEventsDelegate {
